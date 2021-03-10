@@ -1,0 +1,334 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>相津屋のだしくらべ | 福井県小浜市 |</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+<!-- ライブラリの読み込み-->
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+
+<!-- プラグインの読み込み-->
+<script type="text/javascript" src="js/jquery.cycle.min.js"></script>
+
+<!-- 実行スクリプト-->
+<script type="text/javascript" >
+ 
+ 
+	  $(document).ready(function() {
+   
+ 
+      // declare variable
+      var scrollTop = $(".scrollTop");
+ 
+      $(window).scroll(function() {
+        // declare variable
+        var topPos = $(this).scrollTop();
+ 
+        // if user scrolls down - show scroll to top button
+        if (topPos > 500) {
+          $(scrollTop).css("opacity", "1");
+ 
+        } else {
+          $(scrollTop).css("opacity", "0");
+        }
+ 
+      }); // scroll END
+ 
+ 
+      //Click event to scroll to top
+      $(scrollTop).click(function() {
+        $('html, body').animate({
+          scrollTop: 0
+        }, 800);
+        return false;
+ 
+      }); // click() scroll top EMD
+ 
+    }); // ready() END
+	
+	
+	
+	// ふわっと出る　//
+$(function(){
+    $(window).scroll(function (){
+        $('.fadein').each(function(){
+            var elemPos = $(this).offset().top;
+            var scroll = $(window).scrollTop();
+            var windowHeight = $(window).height();
+            if (scroll > elemPos - windowHeight + 200){
+                $(this).addClass('scrollin');
+            }
+        });
+    });
+});
+
+
+
+
+</script>
+</head>
+
+<body>
+<div id="header"><!--ヘッダー-->
+  
+  <div id="navi">
+    <ul>
+      <li><a href ="#concept"> <img src="images/navi_01.png" width="133" height="42" alt="aizuyanoomoi" ></a></li>
+      <li> <a href ="#menu-img"> <img src="images/navi_02.png" width="109" height="42" alt="menu" /></a></li>
+      <li><a href ="#shop"> <img src="images/navi_03.png" width="89" height="42" alt="shop" /></a></li>
+      <li><a href ="#obama"> <img src="images/navi_04.png" width="132" height="42" alt="about_obama" /></a></li>
+      <li><a href ="#access"> <img src="images/navi_05.png" width="89" height="42" alt="access" /></a></li>
+    </ul>
+  </div>
+  <!--ナビ--> 
+</div>
+<!--ヘッダー--> 
+
+<!--コンテンツ--> 
+
+<!--メイン画像-->
+
+<div  id="main-img"> <img src="images/main11_19.png" width="1000" height="568" alt="相津屋のだしくらべ" />
+  <h1><img src="images/main-logo.png" width="89" height="264" alt="相津屋のだしくらべ | 福井県小浜市 |" /></h1>
+</div>
+<!--メイン画像--> 
+
+<!--コンセプト-->
+
+<div id="concept">
+  <div   id="concept-img">
+    <section class="fadein">
+      <h2><img src="images/concept.png" width="231" height="38" alt="あいづやの想い" /></h2>
+    </section>
+  </div>
+  <div  id="concept-text">
+    <h3>
+      <p class=h3-1>だしって何だか、<br />
+        手間がかかって難しい。</p>
+      <p class=h3-2>そんなイメージを持たれている方が、<br />
+        多いのかもしれません。</p>
+      <p class=h3-3>だしの豊かな味わいや、<br />
+        その掛け合わせの自由さを、<br />
+        気軽に、贅沢に、楽しんでもらいたい。</p>
+      <p class=h3-4>そんな想いから、<br />
+        福井県小浜市で七代続く乾物店の<br />
+        「<span class="red">相津屋</span>」が、<br />
+        だしカフェとしてオープンしました。</p>
+    </h3>
+  </div>
+</div>
+<!--コンセプト--> 
+
+<!--おしながき見出し-->
+
+<div id="menu-img">
+  <section class="fadein">
+    <h2><img src="images/menu.png" width="184" height="37" alt="おしながき" > </h2>
+  </section>
+</div>
+
+<!--メニュー-->
+
+<div id="menu">
+  <div id="menu-0"><!--メニュー0-->
+    <h3><img src="images/teiban-h2.png" width="513" height="28" alt="１定番だしから一つお選びください" /></h3>
+  </div>
+  <!--メニュー0-->
+  
+  <div id="menu-1"><!--メニュー1-->
+    <h4 class="dasi-5"><img src="images/teiban-logo.png" width="284" height="66" alt="五種の定番だし" /></h4>
+    <p><img src="images/menu1.png" width="1001" height="398" alt="定番だしのメニュー" /></p>
+    <h4><img src="images/tanpin-logo.png" width="104" height="47" alt="単品" /></h4>
+    <div class="tanpinn"><img src="images/tanpin-price.png" width="414" height="113" alt="単品の価格" /></div>
+  </div>
+  <!--メニュー1-->
+  
+  <h3><img src="images/awase-h2.png" width="543" height="32" alt="２合わせだしをお好みでお選びください" /></h3>
+  <div id="menu-2"><!--メニュー2-->
+    <p>定番だしに合わせて、自分好みにアレンジ。<br />
+      お好みの味にカスタマイズできます。</p>
+    <h4><img src="images/awase-logo.png" width="340" height="66" alt="五種の合わせだし" /></h4>
+    <p ><img src="images/menu2.png" width="1000" height="300" alt="合わせだしのメニュー" /></p>
+    <p class="awase-price"><img src="images/awase-price.png" width="127" height="32" alt="合わせだしの価格各２００円" /></p>
+  </div>
+  <!--メニュー2-->
+  
+  <h3><img src="images/setmenu-h2.png" width="552" height="30" alt="３物足りない方はセットメニューをどうぞ" /></h3>
+  
+  <!--セットメニュー背景-->
+  <div class="setmenu">
+    <div class="setmenu-main">
+      <ul>
+        <li><img src="images/setmenu-rice.png" width="212" height="237" alt="白米ごはん" /></li>
+        <li><img src="images/setmenu-pan.png" width="212" height="237" alt="自家製パン" /> </li>
+        <li><img src="images/setmenu-men.png" width="212" height="237" alt="にゅうめん" /></li>
+      </ul>
+    </div>
+    <!--セットメニューメイン--> 
+  </div>
+  <!--セットメニュー背景--> 
+  
+  <!--セットメニュー価格-->
+  <div class="setmenu-price">
+    <div class="setmenu-price-main">
+      <ul>
+        <li><img src="images/rice-price.png" width="170" height="60" alt="ごはん１００円" /></li>
+        <li> <img src="images/pan-price.png" width="170" height="60" alt="パン１５０円" /></li>
+        <li> <img src="images/men-price.png" width="170" height="60" alt="にゅうめん２００円" /></li>
+      </ul>
+    </div>
+    <!--セットメニュー価格メイン--> 
+  </div>
+  <!--セットメニュー価格--> 
+  
+</div>
+<!--メニュー--> 
+
+<!--店舗情報-->
+
+<div id="shop">
+  <section class="fadein">
+    <h2><img src="images/shop-logo.png" width="165" height="38" alt="店舗情報" /></h2>
+  </section>
+  
+  <!--店舗情報・背景-->
+  <div id="shop-background"> 
+    
+    <!--店舗情報・店舗写真-->
+    <div id="shop-img">
+      <p><img src="images/shop-img.png" width="700" height="466" alt="相津屋の店" /> </p>
+    </div>
+    <!--店舗情報・店舗写真-->
+    
+    <div id="shop-text"><!--店舗情報・店舗説明-->
+      
+      <div id="shop-text-border"><!--店舗情報・店舗説明枠線-->
+        
+        <div id="shop-text-left"><!--店舗情報・店舗説明左-->
+          
+          <p><img src="images/sub-logo.png" width="175" height="21" alt="相津屋のだしくらべ" /> </p>
+          <p class="text-top">相津屋が長きにわたり培ってきた伝統を、<br />
+            もっと沢山の方に知ってほしいという想いから､<br />
+            ご提供の場を小浜駅構内に設けました。</p>
+          <p class="text-bottom">心も体も豊かに、だしの新たな一面を<br />
+            お楽しみいただける空間で、<br />
+            県内外のお客さまをお迎えいたします。</p>
+        </div>
+        <!--店舗情報・店舗説明左-->
+        
+        <div id="shop-text-right"><!--店舗情報・店舗説明右-->
+          <p>〒　９１７－００７７<br />
+            福井県小浜市伏原１　小浜駅構内</p>
+          <p class="tell"><img src="images/tel-icon.png" width="17" height="19" alt="電話" />　０７７０－１２－３４５６<br />
+            営業時間　９：００～１８：００<br />
+            定休日　　木曜日<br />
+            駐車場　　１１９台（市営駐車場 １時間無料）</p>
+          <div id="facebook"> <img src="images/faccebook.png" width="21" height="21" alt="フェイスブック" />aizuya</div>
+          <div id="instagram"> <img src="images/instagram.png" width="22" height="22" alt="インスタグラム" />aizuyanodasi</div>
+        </div>
+        <!--店舗情報・店舗説明右--> 
+        
+      </div>
+      <!--店舗情報・店舗説明枠線--> 
+    </div>
+    <!--店舗情報・店舗説明--> 
+  </div>
+  <!--店舗情報・背景--> 
+</div>
+<!--店舗情報-->
+
+<div class="clear"> </div>
+
+<!--小浜について-->
+
+<div id="obama">
+  <div id="obama-top"><!--小浜・上-->
+    
+    <div class="element js-animation" id="obama-top-left"><!--小浜・上・左--> 
+      <img src="images/obama-img.png" width="647" height="364" alt="福井県小浜市の棚田" />
+      </p>
+    </div>
+    <!--小浜・上・左-->
+    
+    <div id="obama-top-right"><!--小浜・上・右-->
+      <section class="fadein">
+        <h2> <img src="images/umitomati.png" width="160" height="102" alt="海と都をつなぐ街" /></h2>
+      </section>
+    </div>
+    <!--小浜・上・右--> 
+    
+  </div>
+  <!--小浜・上-->
+  
+  <div class="clear"> </div>
+  <div id="obama-bottom"><!--小浜・下-->
+    <section class="fadein">
+      <h2><img src="images/about-obama.png" width="218" height="35" alt="福井県小浜市について" /></h2>
+    </section>
+    <div id="obama-bottom-left"><!--小浜・下・左-->
+      
+      <p>小浜市は、京都の真北、若狭地方のほぼ中央に位置しています。<br />
+        日本海にのぞみ、豊かな自然に恵まれた若狭は、<br />
+        古代、「御食国（みけつくに）」として、海産物や塩など豊富な食材を<br />
+        都に送り、朝廷の食を支えてきました。<br />
+        海の幸が運ばれた道は、今では「鯖街道」と呼ばれ、親しまれています。<br />
+        その往来の歴史は1500年前から続くと言われており、<br />
+        今でも、小浜では、伝統を守り伝える人々の営みを肌で感じることができます。</p>
+    </div>
+    <!--小浜・下・左-->
+    
+    <div id="obama-bottom-right"><!--小浜・下・右-->
+      <p><img src="images/obama-map.png" width="274" height="288" alt="福井県小浜市の地図" /></p>
+    </div>
+    <!--小浜・下・右--> 
+  </div>
+  <!--小浜・下--> 
+</div>
+<!--小浜について-->
+
+<div id="access"> <!--アクセス-->
+  
+  <section class="fadein">
+    <h2><img src="images/access.png" width="139" height="32" alt="アクセス" /></h2>
+  </section>
+  <div id="access-main"><!--アクセスメイン-->
+    <div id="access-left"><!--アクセス・左-->
+      
+      <div id="car"><!--車-->
+        <p class="access-title"><img src="images/car.png" width="56" height="39" alt="車" />お車でお越しの方</p>
+        <p class="access-text">北陸自動車道で敦賀ＪＣＴより、<br />
+          舞鶴若狭自動車道に入り、小浜ＩＣで降りて、<br />
+          ＪＲ小浜駅まで約10分。</p>
+      </div>
+      <!--車-->
+      
+      <div id="train"><!--電車-->
+        <p class="access-title"><img src="images/train.png" width="36" height="51" alt="電車" /> <span class="train-title">電車でお越しの方</span></p>
+        <p class="access-text">ＪＲ敦賀駅にて小浜線に乗り換え、約1時間。<br />
+          ＪＲ小浜駅にて下車。</p>
+      </div>
+      <!--電車--> 
+    </div>
+    <!--アクセス・左-->
+    
+    <div id="access-right"><!--アクセス・右-->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5463.243336061809!2d135.74182497713505!3d35.49280522874262!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001d073b83d5569%3A0xa0f2000767d70b24!2z5bCP5rWc6aeF!5e0!3m2!1sja!2sjp!4v1576199050395!5m2!1sja!2sjp" width="500" height="344" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+    <!--アクセス・右--> 
+  </div>
+  <!--アクセスメイン--> 
+</div>
+<!--アクセス-->
+
+<div class="clear"> </div>
+
+<!--フッター-->
+<div id="footer">
+  <p>Copyright(C)aizuya All Rights Reserved.</p>
+</div>
+<!--フッター-->
+
+<div id="stop" class="scrollTop"> <a href="#navi">Ｔ０Ｐ</a> </div>
+</body>
+</html>
